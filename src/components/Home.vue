@@ -1,14 +1,21 @@
 <template>
-  
+  <div>
+    <top-bar></top-bar>
+  </div>
 </template>
 
 <script>
+import TopBar from './layout/Topbar';
+
 export default {
-  name: 'HelloWorld',
+  name: 'Home',
   data () {
     return {
 
     }
+  },
+  components: {
+    'top-bar': TopBar
   }
 }
 </script>
