@@ -15,7 +15,23 @@
     }
     .header-right{
       text-align: right;
+      .nav{
+        width: 80px;
+        position: absolute;
+        right: -8px;
+        top: 60px;
+        box-shadow: 0 1px 4px 0 rgba(0,0,0,.08);
+        padding: 0 4px;
+        .nav-item{
+          height: 30px;
+          line-height: 30px;
+          text-align: left;
+          cursor: pointer;
+          &.active{
+            color: crimson;
+          }
+        }
+      }
     }
   }
-  
 }
