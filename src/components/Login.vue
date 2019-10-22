@@ -1,18 +1,18 @@
 <template>
-    
+  <div></div>
 </template>
 
 <script>
-    export default {
-        name: '',
-        data() {
-            return {
-                
-            }
-        }
+export default {
+  name: '',
+  data () {
+    return {
+
     }
+  }
+}
 </script>
 
 <style lang="" scoped>
-    
+
 </style>
