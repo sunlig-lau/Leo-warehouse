@@ -1,0 +1,26 @@
+.login-bg{
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    img{
+        width: 80%;
+    }
+    .login-box{
+        height: 100%;
+        width: 40%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        .box{
+            width: 40%;
+            height: 350px;
+            margin: 40% auto;
+            h2{
+                color: #ffffff;
+            }
+            .input-box{
+                margin-top: 50px;
+            }
+        }
+    }
+}
