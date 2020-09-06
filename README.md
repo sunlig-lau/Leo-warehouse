@@ -1,4 +1,4 @@
-# leo-blog
+# leo-warehouse
 
 > A Vue.js project
 
